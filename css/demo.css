@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black !important;
+    background-image: url("../img/PC/3c5c3a048917c769f633db6cb2739b45.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    padding-bottom: 15px;
+}
+header .container {
+    padding-top: 15px;
+}
+
+header .container .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .container .row .logo {
+    width: 250px;
+    margin-left: 85px;
+}
+
+header .container .row .logo img {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form .dangkisk,
+.form .search {
+    position: relative;
+    padding-right: 20px;
+}
+
+.form .text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 5px;
+    left: 15%;
+    color: #fff;
+    /* text-align: center; */
+}
+
+.form .text-2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+    left: 17px;
+    color: #fff;
+}
+
+.form .text-2 i {
+    color: #f79a3e;
+}
+
+.form .text a,
+.form .text-2 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+}
+.container .content {
+    background-image: url(../img/PC/Rectangle2.png);
+    background-size: 100% 100%;
+}
+.container .content .img{
+    background-image: url(../img/PC/Layer9.png);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black !important;
+    background-image: url("../img/PC/3c5c3a048917c769f633db6cb2739b45.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header .container {
+    padding-top: 15px;
+}
+
+header .container .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .container .row .logo {
+    width: 250px;
+    margin-left: 85px;
+}
+
+header .container .row .logo img {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form .dangkisk,
+.form .search {
+    position: relative;
+    padding-right: 20px;
+}
+
+.form .text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 5px;
+    left: 15%;
+    color: #fff;
+    /* text-align: center; */
+}
+
+.form .text-2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+    left: 17px;
+    color: #fff;
+}
+
+.form .text-2 i {
+    color: #f79a3e;
+}
+
+.form .text a,
+.form .text-2 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main .container {
+    position: relative;
+    
+}
+
+.main .container img {
+    width: 100%;
+}
+
+.main .container .content {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main .container .content .thongbao {
+    position: absolute;
+    top: 3%;
+    left: 11%;
+    display: flex;
+    /* align-items: center; */
+    font-size: 14px;
+    color: #fff;
+}
+
+.main .container .content .thongbao p {
+    color: #f79a3e;
+}
+
+.main .container .content .user {
+    position: absolute;
+    top: 50px;
+    left: 6%;
+    width: 90%;
+    display: flex;
+}
+
+.main .container .content .user .register {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+.main .container .content .user .register img,
+.main .container .content .user .home img,
+.main .container .content .user .channel img,
+.main .container .content .user .CSKH img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.main .container .content .user .text-content a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main .container .content .user .register .icon,
+.main .container .content .user .home .icon,
+.main .container .content .user .channel .icon {
+    position: absolute;
+    top: -2px;
+    left: 100%;
+    margin-left: 20px;
+}
+
+.main .container .content .user .home {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 18%;
+    left: 33%;
+    width: 15%;
+}
+
+.main .container .content .user .channel {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 18%;
+    left: 55%;
+    width: 15%;
+}
+
+.main .container .content .user .CSKH {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 18%;
+    left: 76%;
+    width: 15%;
+}
+
+.main .container .content .images {
+    position: absolute;
+    top: 90px;
+    left: 6%;
+    width: 90%;
+    display: flex;
+}
+
+.main .container .content .images .img-1 {
+    position: absolute;
+    top: 275px;
+    left: -22%;
+    opacity: 0.5;
+    z-index: 101;
+}
+
+.main .container .content .images .img-2 {
+    width: 225px !important;
+    overflow: hidden;
+    top: 20px;
+    position: absolute;
+    left: 0;
+}
+
+.main .container .content .images .img-3 {
+    width: 270px;
+    height: 530px;
+    position: absolute;
+    left: 24%;
+}
+
+.main .container .content .images .img-4 {
+    width: 220px;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+
+.main .container .content .images .img-5 {
+    width: 285px;
+    position: absolute;
+    left: 75%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    fill-opacity: 0.1;
+}
+
+.main .container .content .project-banner {
+    position: relative;
+    top: 300px;
+    /* overflow: hidden; */
+}
+
+.main .container .content .project-banner .project-banner-1 {
+    width: 50%;
+    position: absolute;
+    top: 400px;
+    margin-left: -240px;
+}
+
+.main .container .content .project-banner .project-banner-2 {
+    position: absolute;
+    top: 900px;
+    width: 20%;
+    margin-left: -230px;
+}
+
+.main .container .content .game {
+    position: absolute;
+    width: 90%;
+    top: 460px;
+    left: 5%;
+}
+
+.main .container .content .game .container .row img {
+    width: 265px;
+}
+
+.game .container .row .col-md-4 {
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    width: 265px;
+    height: 192px;
+}
+
+.game .container .row .col-md-4 .banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.game .container .row .col-md-4 .banner .get {
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    width: 50%;
+}
+
+.game .container .row .col-md-4 .banner .get-1 {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    width: 50%;
+}
+
+.game .container .row .col-md-4 .banner .get img {
+    width: 100%;
+}
+
+.game .container .row .col-md-4 .banner .get-1 img {
+    width: 100%;
+}
+
+.game .container .row .col-md-4 .banner .get span {
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.game .container .row .col-md-4 .banner span a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.game .container .row .col-md-4 .banner .get-1 span {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.game .container .row .col-md-4 .banner .get-all {
+    display: none;
+}
+
+.game .container .row .col-md-4:hover img {
+    background-color: #343a40;
+    opacity: 0.8;
+}
+
+.game .container .row .col-md-4 .banner:hover .get-all {
+    display: block;
+    cursor: pointer;
+}
+
+.game .container .post {
+    width: 830px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game .container .post p {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.game .container .post .post-1 {
+    margin-left: -15px;
+}
+
+.game .container .bank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.game .container .bank img {
+    width: 630px;
+}
+
